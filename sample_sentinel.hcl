@@ -1,3 +1,5 @@
+import "tfplan/v2" as tfplan
+
 # 使用可能なインスタンスタイプのリスト
 allowed_types = ["t2.micro"]
 
