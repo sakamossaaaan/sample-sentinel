@@ -1,7 +1,7 @@
 import "tfplan/v2" as tfplan
 
 # 使用可能なインスタンスタイプのリスト
-allowed_types = ["t2.micro"]
+allowed_types = ["t2.large"]
 
 # すべてのEC2インスタンスをフィルタリング
 ec2_instances = filter tfplan.resource_changes as _, rc {
